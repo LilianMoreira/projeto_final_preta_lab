@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    border:0;
+}
+
+body{
+background-color: #EDEAEA;
+}
+
+#menu{
+background-color: #BE89CB;
+}
+
+#menu ul{
+    display: flex;
+    padding: 30px;
+    justify-content: right;
+    gap: 150px;
+    align-items: flex-end;
+}
+
+#menu ul li{
+    list-style: none;
+}
+
+#menu ul li a{
+    font-family:'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+img{
+    align-items: center;
+    margin: auto;
+    display: block; 
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 48px;
+    border-radius: 50%;
+}
+
+#perfil h1{
+    text-align: center;
+    color: #dd2897;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 140%;
+    align-items: center;
+
+}
+
+#perfil h1 #nome{
+    position: absolute;
+    display: flex;
+    width: 420px;
+    height: 81px;
+}
+
+#perfil h2{
+    text-align: center;
+    color: #dd2897;
+    font: 'Opens Sans';
+}
+
+#perfil h2 #profissao{
+    position: absolute;
+    display: flex;
+    width: 420px;
+    height: 81px;
+}
+
+#perfil p{
+    text-align: center;
+    color: #000000;
+    font-family: 'ABeeZee';
+    font-size: 16px;
+    width: 1000px;
+    height: 154px;
+    align-items: center;
+    line-height: 22.4px;
+    margin-top: 21px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #EDEAEA;
+}
+
+#formacao{
+    background: #E5E5E5;
+    height:1380px ;
+ }
+
+#formacao h1{
+    color:#dd2897;
+    font-family: 'Open Sans';
+    font-style: normal;
+    margin-left: 39.51px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    margin-top: 160px;
+}
+
+#formacao h2{
+    margin-left: 237px;
+    width: 178px;
+    height: 22px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    color:#828282;
+    margin-bottom: 8px;
+    margin-top: 53px;
+    white-space: nowrap;
+}
+
+#formacao h3{
+    width: 55px;
+    height: 19px;
+    font-family:'Open Sans';
+    font-style:normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 19px;
+    text-decoration-line: underline ;
+    color: #2F80ED;
+    margin-left: 237px;
+    white-space: nowrap;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+#formacao p{
+    width: 600px;
+    height: 80px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 140%;
+    color:#000000;
+    margin-left: 237px;
+    margin-right: 237px;
+    margin-bottom: 80px;
+}
+
+#formacao #gama h2{
+    margin-top: 40px;
+}
+
+#formacao #ufba h2{
+margin-top: 140px;
+}
+
+#formacao #ufba-m h2{
+    margin-top: 210px;
+}
+
+#portfolio{
+background:#EDEAEA;
+}
+
+#portfolio h1{
+    width: 363.45px;
+    height: 33px;
+    margin-left: 39.51px;
+    margin-top: 50px;
+    font-family:'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #dd2897;
+    margin-bottom: 28px;
+}
+
+#portfolio h2{
+    color: #661E4B;
+    width: 108px;
+    height: 22px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 21.79px;
+    margin-left: 273px;
+    margin-top:28px;
+    padding: 30px;
+    justify-content: center;
+    margin-right: 500.5px;
+    white-space: nowrap;
+}
+
+#portfolio h3{
+    width: 138px;
+    height: 19px;
+    font-size: 18px;
+    color:#000000;
+    font-family: 'Open Sans';
+    align-items: center;
+    margin-left: 273px;
+    margin-right: 500.5px;
+    margin-top: 1px;
+   white-space: nowrap;
+}
+
+
+#portfolio h4{
+    margin-top: 10px;
+    margin-left: 273px;
+    margin-right: 500.5px;
+    font-size: 16px;
+}
+
+#portfolio p{
+    width: 405px;
+    height: 51px;
+    font-family: 'ABeeZee';
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    align-items: center;
+    margin-right: 500.5px ;
+    margin-left: 273px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+#portfolio #calculadora p{
+ margin-bottom: 80px;
+}
+
+.rodape{
+    background: #BE89CB;
+    color: #dd2897;
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
+
+.rodape a{
+    text-decoration: none;
+    margin: auto;
+    margin-right: 100px;
+    
+}
+
+.rodape img{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    padding: 48px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.rodape a img{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 50px;
+    
+}
+
+.rodape h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.rodape .github img{
+display: flex;
+align-items: center;
+}
+
+.rodape .github img{
+    display: flex;
+    align-items: right;
+}
+
+
+
+
+   
