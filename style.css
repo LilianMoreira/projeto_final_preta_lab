@@ -13,7 +13,7 @@ background-color: #EDEAEA;
 }
 
 #menu{
-background-color: #BE89CB;
+background-color: #dd2897;;
 }
 
 #menu ul{
@@ -50,7 +50,7 @@ img{
 #perfil h1{
     text-align: center;
     color: #dd2897;
-    font-family: 'Open Sans';
+    font-family:'Open Sans', sans-serif;
     font-style: normal;
     font-size: 36px;
     line-height: 140%;
@@ -68,7 +68,8 @@ img{
 #perfil h2{
     text-align: center;
     color: #dd2897;
-    font: 'Opens Sans';
+    font-family:'Open Sans', sans-serif;
+    font-family:'Open Sans', sans-serif;
 }
 
 #perfil h2 #profissao{
@@ -117,7 +118,7 @@ img{
     margin-left: 237px;
     width: 178px;
     height: 22px;
-    font-family: 'Open Sans';
+    font-family:'Open Sans', sans-serif;
     font-style: normal;
     font-size: 20px;
     line-height: 22px;
@@ -130,7 +131,7 @@ img{
 #formacao h3{
     width: 55px;
     height: 19px;
-    font-family:'Open Sans';
+    font-family:'Open Sans', sans-serif;
     font-style:normal;
     font-weight: 400px;
     font-size: 18px;
@@ -146,7 +147,7 @@ img{
 #formacao p{
     width: 600px;
     height: 80px;
-    font-family: 'Open Sans';
+    font-family:'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400px;
     font-size: 20px;
@@ -178,7 +179,7 @@ background:#EDEAEA;
     height: 33px;
     margin-left: 39.51px;
     margin-top: 50px;
-    font-family:'Open Sans';
+    font-family:'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -193,7 +194,7 @@ background:#EDEAEA;
     color: #661E4B;
     width: 108px;
     height: 22px;
-    font-family: 'Open Sans';
+    font-family:'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 21.79px;
     margin-left: 273px;
@@ -209,7 +210,7 @@ background:#EDEAEA;
     height: 19px;
     font-size: 18px;
     color:#000000;
-    font-family: 'Open Sans';
+    font-family:'Open Sans', sans-serif;
     align-items: center;
     margin-left: 273px;
     margin-right: 500.5px;
@@ -228,7 +229,7 @@ background:#EDEAEA;
 #portfolio p{
     width: 405px;
     height: 51px;
-    font-family: 'ABeeZee';
+    font-family: 'ABeeZee',sans-serif;;
     font-size: 20px;
     line-height: 20px;
     color: #000000;
@@ -244,9 +245,9 @@ background:#EDEAEA;
 }
 
 .rodape{
-    background: #BE89CB;
-    color: #dd2897;
-    font-family: 'Open Sans';
+    background: #dd2897;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -270,7 +271,7 @@ background:#EDEAEA;
     display: grid;
     margin: auto;
     grid-template-columns: 50px;
-    
+    margin-right: 100px;
 }
 
 .rodape h1{
@@ -278,17 +279,24 @@ background:#EDEAEA;
     margin-top: 50px;
 }
 
-.rodape .github img{
-display: flex;
-align-items: center;
+.rodape ul{
+    display:flex;
+    padding: 30px;
+    justify-content: center;
+    gap:150px;
+    align-items: center;
 }
 
-.rodape .github img{
-    display: flex;
-    align-items: right;
+.rodape ul li{
+    list-style: none;
 }
 
-
-
+.rodape p{
+    margin-left: 50px;
+    color:#ffff;
+    font-size: 18px;
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+}
 
    
